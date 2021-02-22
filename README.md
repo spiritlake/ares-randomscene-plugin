@@ -39,12 +39,6 @@ Configuration options can be set in `randomscene.yml`. A fun way to get thematic
 
 `excluded_areas` - A list of areas to exclude in the basic random scenes prompts. Will also exclude all 'child' areas. For example, you may with to exclude 'Grand Lake Homes', which in turn excludes 'Cabin Shop Apartment,' an area parented to 'Grand Lake Homes.' Using the 'area' switch in the command will still return these areas if they are specified.
 
-For example:
-
->  excluded_areas:
->  - "Grand Lake Homes"
->  - "Tikal"
-
 `scenarios` - Complete scenarios in sentence form.
 
 `npcs` - NPC descriptions as would be found at the start of a sentence. Paired with 'actions' in the randomzier.

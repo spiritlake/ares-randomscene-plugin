@@ -1,6 +1,8 @@
 ---
 randomscene:
-  excluded_areas: []
+  excluded_areas:
+  - "Grand Lake Homes"
+  - "Alpha"
   scenarios:
   - "A case of mistaken identity."
   - "A moose has wandered into town."
