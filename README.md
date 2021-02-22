@@ -41,9 +41,9 @@ Configuration options can be set in `randomscene.yml`. A fun way to get thematic
 
 For example:
 
-`  excluded_areas:
-   - "Grand Lake Homes"
-   - "Tikal"`
+>  excluded_areas:
+>  - "Grand Lake Homes"
+>  - "Tikal"
 
 `scenarios` - Complete scenarios in sentence form.
 
