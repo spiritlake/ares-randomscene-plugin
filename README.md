@@ -33,7 +33,7 @@ In the game, run `plugin/install <github url>`.
 
 Additional configuration options are described below.
 
-##Configuration
+## Configuration
 
 Configuration options can be set in `randomscene.yml`. A fun way to get thematic options for your game is to create a shareable Google sheet with columns for the various configurations and ask your players to help populate it.
 
