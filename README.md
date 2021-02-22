@@ -37,7 +37,7 @@ Additional configuration options are described below.
 
 Configuration options can be set in `randomscene.yml`. A fun way to get thematic options for your game is to create a shareable Google sheet with columns for the various configurations and ask your players to help populate it.
 
-`excluded_areas` - A list of areas to exclude in the basic random scenes prompts. Will also exclude all 'child' areas. For example, you may with to exclude 'Grand Lake Homes', which in turn excludes 'Cabin Shop Apartment,' an area parented to 'Grand Lake Homes.' Using the 'area' switch in the command will still return these areas if they are specified.
+`excluded_areas` - A list of areas to exclude in the basic random scenes prompts. Will also exclude all 'child' areas. For example, you may with to exclude 'Grand Lake Homes', which in turn excludes 'Cabin Shop Apartment,' an area parented to 'Grand Lake Homes.' Using the 'area' switch in the command will still return these areas if they are specified. Set to [] if you're not excluding any areas. 
 
 `scenarios` - Complete scenarios in sentence form.
 
