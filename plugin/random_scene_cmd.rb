@@ -11,6 +11,7 @@ module AresMUSH
           args = cmd.parse_args(ArgParser.arg1_slash_optional_arg2)
           names = list_arg(args.arg1)
           self.names = names.concat [enactor.name]
+          self.names = self.names.uniq { |name| name.titlecase }
           self.area = titlecase_arg(args.arg2)
         else
           self.names = [enactor.name]
